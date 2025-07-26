@@ -1,10 +1,10 @@
 
 # beheart
 
-The goal of `beheart` is to simplify the creation of bull’s eye plots
+The goal of `beHeart` is to simplify the creation of bull’s eye plots
 for left ventricle segmental data, supporting both 16- and 17-segment
-models. It provides powerful functions to visualize raw or summarized
-data, including comparisons between groups.
+models. It provides functions to visualize raw or summarized data,
+including comparisons between groups.
 
 ## Installation
 
@@ -22,8 +22,7 @@ Here is a complete example showing how to prepare and plot data for two
 groups, creating a publication-quality figure with a single command.
 
 ``` r
-devtools::load_all() # Use this instead of library(beheart)
-#> ℹ Loading beHeart
+library(beHeart)
 
 # 1. Start with "wide" data (one row per subject)
 set.seed(42)
