@@ -1,5 +1,5 @@
 
-# beheart
+# beHeart
 
 The goal of `beHeart` is to simplify the creation of bull’s eye plots
 for left ventricle segmental data, supporting both 16- and 17-segment
@@ -8,12 +8,12 @@ including comparisons between groups.
 
 ## Installation
 
-You can install the development version of beheart from
+You can install the development version of beHeart from
 [GitHub](https://github.com) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("sagomezo/beheart")
+devtools::install_github("sagomezo/beHeart")
 ```
 
 ## The `beHeart` Workflow
@@ -39,7 +39,7 @@ two columns:
 #### From “Wide” to “Long” with `prepare_bullseye_data()`
 
 Most clinical datasets are in a **wide format**, with one row per
-patient and a separate column for each of the 17 segments. `beheart`
+patient and a separate column for each of the 17 segments. `beHeart`
 provides a helper function, `prepare_bullseye_data()`, to easily convert
 this into the required long format.
 
@@ -134,7 +134,7 @@ plot_bullseye_from_df(
 
 #### Example 2: Faceted Plot with Customizations
 
-The true power of `beheart` is in comparing groups and customizing the
+The true power of `beHeart` is in comparing groups and customizing the
 output. Here, we create a side-by-side plot comparing two groups, one
 with hypertensive heart disease and controls, using the clinical “echo”
 palette and custom labels.
